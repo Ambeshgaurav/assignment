@@ -1,3 +1,22 @@
+class stat{
+     static  a=10;
+    static increment()
+    {
+        this.a=++this.a;
+    }
+    greet()
+    {
+    console.log("hello");
+    }
+    
+}
+stat.increment();
+console.log(stat.a);
+stat.increment();
+console.log(stat.a);
+let ab=new stat();
+ab.greet();
+
 class ambesh {
     constructor(name)
     {
